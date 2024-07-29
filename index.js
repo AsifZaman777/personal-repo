@@ -70,7 +70,7 @@ async function init() {
 
        const scaleouterRect = new Rectangle({ width: 500, height: 87, color: "transparent" }).center().mov(100, 80);
        const scale = new Pic("assets/image/scale.png").center().mov(100, 80);
-       let r = 8;
+       let r = 80;
        const wheelCircle = new Circle(r, "transparent").loc(810,498).rot(0)
        .sca(0.9)
        .addPhysics(
